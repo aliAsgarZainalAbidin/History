@@ -20,7 +20,7 @@ import androidx.constraintlayout.compose.Dimension
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import com.example.history.R
+import com.selayar.history.R
 import com.selayar.history.component.TextSelayar
 import com.selayar.history.main.Screen
 import com.selayar.history.main.component.HistoryItem

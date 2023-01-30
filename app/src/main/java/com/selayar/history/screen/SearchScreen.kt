@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.Dimension
 import androidx.navigation.NavController
-import com.example.history.R
+import com.selayar.history.R
 import com.selayar.history.main.Screen
 import com.selayar.history.main.component.HistoryItem
 import com.selayar.history.viewmodel.HistoryViewModel

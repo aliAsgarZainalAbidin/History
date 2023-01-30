@@ -29,8 +29,8 @@ import androidx.navigation.NavController
 import com.selayar.history.utils.BarcodeAnalyzer
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.rememberMultiplePermissionsState
+import com.selayar.history.R
 import java.util.concurrent.Executors
-import com.example.history.R
 import com.selayar.history.main.Screen
 import com.selayar.history.viewmodel.HistoryViewModel
 

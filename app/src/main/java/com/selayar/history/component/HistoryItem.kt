@@ -16,11 +16,11 @@ import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.Dimension
 import coil.compose.AsyncImage
-import com.example.history.BuildConfig
+import com.selayar.history.BuildConfig
 import com.selayar.history.component.TextSelayar
 import com.selayar.history.data.model.Wisata
 import com.selayar.history.ui.theme.Typography
-import com.example.history.R
+import com.selayar.history.R
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
