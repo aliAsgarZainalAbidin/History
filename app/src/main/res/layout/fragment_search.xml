@@ -7,7 +7,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".fragment.search.SearchFragment">
+    tools:context=".xml.fragment.search.SearchFragment">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:orientation="vertical"

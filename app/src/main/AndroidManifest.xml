@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
-        android:name=".Util.MyApp"
+        android:name="com.selayar.history.utils.HistoryApplication"
         android:allowBackup="true"
         android:usesCleartextTraffic="true"
         android:icon="@mipmap/round_rec_logo"
@@ -15,7 +15,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:targetApi="m">
-        <activity android:name=".activity.MainActivity">
+        <activity
+            android:name="com.selayar.history.main.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.HistoryOfSelayar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

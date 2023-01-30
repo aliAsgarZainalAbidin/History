@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.selayar.history.fragment.home.HomeFragment"
+        android:name="com.selayar.history.xml.fragment.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.selayar.history.fragment.detail.DetailFragment"
+        android:name="com.selayar.history.xml.fragment.detail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" >
 
@@ -44,12 +44,12 @@
     </fragment>
     <fragment
         android:id="@+id/moreFragment"
-        android:name="com.selayar.history.fragment.detail.more.MoreFragment"
+        android:name="com.selayar.history.xml.fragment.detail.more.MoreFragment"
         android:label="fragment_more"
         tools:layout="@layout/fragment_more" />
     <fragment
         android:id="@+id/scannerFragment"
-        android:name="com.selayar.history.fragment.scan.ScannerFragment"
+        android:name="com.selayar.history.xml.fragment.scan.ScannerFragment"
         android:label="fragment_scanner"
         tools:layout="@layout/fragment_scanner" >
         <action
@@ -61,7 +61,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.selayar.history.fragment.search.SearchFragment"
+        android:name="com.selayar.history.xml.fragment.search.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" >
         <action
